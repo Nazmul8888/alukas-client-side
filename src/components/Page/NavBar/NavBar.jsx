@@ -13,7 +13,7 @@ const NavBar = () => {
 
 
     return (
-        <div className="  ml-40 mr-40">
+        <div className="  ">
             
     <div className="navbar bg-base-100">
     <input type="text" placeholder="Search Products" className="input input-bordered w-24 md:w-auto" />

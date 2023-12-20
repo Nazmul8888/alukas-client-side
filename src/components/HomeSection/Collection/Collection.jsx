@@ -11,12 +11,11 @@ import { Pagination } from 'swiper/modules';
  import col5 from '../../../assets/collection/coll-5.jpg'
  import col6 from '../../../assets/collection/coll-6.jpg'
 
-
-const Review = () => {
+const Collection = () => {
     return (
         <div>
-            <h1 className=" text-4xl font-bold text-center">-----Trendy Collection----- </h1>
-            <p className=' text-center'>Collect your loves with our newest arrivals.</p>
+            <h1 className=" text-4xl font-bold text-center">-----Autumn Collection----- </h1>
+            <p className=' text-center'>Collect your loves with our autumn arrivals.</p>
            <br />
             <Swiper
         slidesPerView={4}
@@ -61,4 +60,4 @@ const Review = () => {
     );
 };
 
-export default Review;
+export default Collection;

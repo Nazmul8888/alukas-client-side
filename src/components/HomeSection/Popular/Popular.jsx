@@ -13,7 +13,9 @@ const Popular = () => {
     },[])
     return (
         <div>
-            <div className=" grid grid-cols-6 gap-5">
+            <h1 className=" text-4xl font-bold text-center">Popular Categories</h1>
+            <div className=" grid grid-cols-6">
+                
                 {
                     popular?.map(item=><PopularCard key={popular._id} item={item}></PopularCard>)
                 }
