@@ -11,9 +11,14 @@ import { Pagination } from 'swiper/modules';
  import col5 from '../../../assets/collection/coll-5.jpg'
  import col6 from '../../../assets/collection/coll-6.jpg'
 
+//  collection banner
+import set1 from '../../../assets/collection/be-2 .jpg'
+import set2 from '../../../assets/collection/set-2.jpg'
+
 const Collection = () => {
     return (
         <div>
+            <div>
             <h1 className=" text-4xl font-bold text-center">-----Autumn Collection----- </h1>
             <p className=' text-center'>Collect your loves with our autumn arrivals.</p>
            <br />
@@ -55,7 +60,20 @@ const Collection = () => {
         </SwiperSlide>
         
       </Swiper>
-            
+            </div>
+            <div className=' flex justify-evenly items-center gap-10'>
+            <div>
+              <img  src={set1} alt=""data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000" />
+              {/* <h1 className="text-1xl uppercase text-center -mt-16  text-red-500"> New Bangles Collection </h1> */}
+            </div>
+            <div>
+              <img  src={set2} alt="" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"/>
+            </div>
+            </div>
         </div>
     );
 };
