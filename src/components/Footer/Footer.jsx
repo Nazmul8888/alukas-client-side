@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <div>
+        <div className=" py-10">
            
 
 <footer className="   bg-slate-400 dark:bg-gray-900">

@@ -17,7 +17,7 @@ import set2 from '../../../assets/collection/set-2.jpg'
 
 const Collection = () => {
     return (
-        <div>
+        <div className=' py-10' >
             <div>
             <h1 className=" text-4xl font-bold text-center">-----Autumn Collection----- </h1>
             <p className=' text-center'>Collect your loves with our autumn arrivals.</p>
@@ -63,13 +63,13 @@ const Collection = () => {
             </div>
             <div className=' flex justify-evenly items-center gap-10'>
             <div>
-              <img  src={set1} alt=""data-aos="flip-left"
+              <img className=' w-96'  src={set1} alt=""data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
               data-aos-duration="2000" />
               {/* <h1 className="text-1xl uppercase text-center -mt-16  text-red-500"> New Bangles Collection </h1> */}
             </div>
             <div>
-              <img  src={set2} alt="" data-aos="flip-left"
+              <img  className=' w-96'  src={set2} alt="" data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"/>
             </div>

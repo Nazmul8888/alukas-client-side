@@ -12,7 +12,7 @@ const Popular = () => {
         .then(data=> setPopular(data))
     },[])
     return (
-        <div>
+        <div className=" py-10">
             <h1 className=" text-4xl font-bold text-center">Popular Categories</h1>
             <div className=" grid grid-cols-6">
                 
