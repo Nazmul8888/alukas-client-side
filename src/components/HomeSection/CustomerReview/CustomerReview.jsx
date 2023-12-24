@@ -1,11 +1,11 @@
 const CustomerReview = () => {
   return (
     <div>
-      <div className=" flex justify-evenly items-center bg-slate-500 py-10 ">
+      <div className=" flex justify-evenly items-center bg-[#52D3D8] py-10 ">
         <div >
           <a
             href="#"
-            className="flex flex-col items-center bg-slate-500 border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="flex flex-col items-center bg-[#52D3D8] border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
             <img
               className="object-cover w-full rounded-t-lg h-96  md:rounded-none md:rounded-s-lg"
