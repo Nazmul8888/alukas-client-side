@@ -1,5 +1,6 @@
 import Collection from "../HomeSection/Collection/Collection";
 import CustomerReview from "../HomeSection/CustomerReview/CustomerReview";
+import Insta from "../HomeSection/Insta/Insta";
 import Popular from "../HomeSection/Popular/Popular";
 import RedJournal from "../HomeSection/RedJournal/RedJournal";
 import Review from "../HomeSection/Review/Review";
@@ -19,6 +20,7 @@ const Home = () => {
          <Collection></Collection>
          <ReviewCard></ReviewCard>
          <RedJournal></RedJournal>
+         <Insta></Insta>
          
        
         
